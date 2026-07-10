@@ -1,0 +1,15 @@
+{
+    "name": "ramlal123105/test",
+    "description": "A test package for security research",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Test User",
+            "email": "test@example.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "readme": "README.md"
+}
